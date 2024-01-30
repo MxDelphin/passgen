@@ -18,5 +18,8 @@ async def hello(ctx):
 async def bye(ctx):
     await ctx.send("\\U0001f642")
 
+@bot.command()
+async def ILY(ctx):
+    await ctx.send("ILY2")
 
 bot.run("TOKEN_SPOT")
